@@ -893,12 +893,20 @@ input {
     .form-section {
         display: flex;
         flex-direction: column;
+        margin-top: -5rem;
+        
+    }
+
+    #contacto{
+        margin-top: -4rem;
     }
 
     .tarjeta-cajeta {
         width: 100%;
         display: none;
     }
+
+
 
     form {
         margin: 0;
