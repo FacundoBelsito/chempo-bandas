@@ -197,6 +197,7 @@
 
 .materiales-img-larga {
     width: 100%;
+    display: none;
 }
 
 .titulo-convertidores-phone {
@@ -211,9 +212,6 @@
 .titulo-convertidores-desktop>img {
     width: 100%;
     margin-bottom: 6rem;
-    
-   
-    
     
 }
 
@@ -367,6 +365,16 @@ footer {
     margin-top: 1rem;
 }
 
+#contacto{
+    background-image: url(images/mapa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
 
 form {
     width: 100%;
@@ -474,26 +482,36 @@ input {
 
 .form-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%
+}
+
+.form-group {
+    width: 50%;
+}
+
+.form-group>input{
+    width: 85%;
+}
+
+.titulo-tarjeta {
+    margin-bottom: 1rem;
 }
 
 .tarjet {
     background-color: #efefef;
     box-shadow: 0 0 20px 0 rgb(0, 0, 0);
-    font-size: 20px;
-    width: 65%;
+    font-size: 21px;
+    width: 100%;
 }
 
 .form-contact {
-
+    text-align: center;
     margin-top: 2rem;
 }
 
 .tarjeta-cajeta {
-    width: 40%;
-
-
+    width: 25%;
 }
 
 .contact-options {
@@ -502,7 +520,16 @@ input {
     margin-top: 2rem;
 }
 
+.main-container {
+    width: 40%;
+}
 
+.logos-tarjeta {
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
 
 
 /*-------------------------RESPONSIVE DESING------------------------*/
@@ -554,7 +581,7 @@ input {
         width: 50%;
     }
 
-
+    
 
     .footer-logo {
         width: 70%;
@@ -614,6 +641,18 @@ input {
         width: 70%;
     }
 
+    .materiales-desktop {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .tarjeta-cajeta {
+        width: 30%;
+    }
+
+    .main-container {
+        width: 45%;
+    }
 }
 
 
@@ -805,6 +844,14 @@ input {
        
     }
 
+    .materiales-desktop{
+        display: none;
+    }
+
+    .materiales-img-larga{
+        display: block;
+    }
+
     .maquinas-img {
         width: 100%;
     }
@@ -866,6 +913,7 @@ input {
     }
 
 
+    
 
     .titulo-contacto {
         margin: 0;
