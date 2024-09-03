@@ -508,6 +508,10 @@ input {
 .form-contact {
     text-align: center;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tarjeta-cajeta {
@@ -518,6 +522,7 @@ input {
     display: flex;
     justify-content: space-around;
     margin-top: 2rem;
+    width: 40%;
 }
 
 .main-container {
@@ -912,9 +917,6 @@ input {
         width: 60%;
     }
 
-
-    
-
     .titulo-contacto {
         margin: 0;
         font-size: 23.4px;
@@ -924,7 +926,6 @@ input {
     .main-container {
         display: flex;
         width: 100%;
-
         justify-content: space-around;
         background-size: cover;
         background-position: center;
@@ -1013,7 +1014,7 @@ input {
     .contact-options {
         display: flex;
         justify-content: space-around;
-
+        width: 100%;
     }
 
     .list-none {
