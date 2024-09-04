@@ -206,13 +206,13 @@
 
 .titulo-convertidores-desktop {
     width: 100%;
-    
+
 }
 
 .titulo-convertidores-desktop>img {
     width: 100%;
     margin-bottom: 6rem;
-    
+
 }
 
 .mats-container {
@@ -226,6 +226,12 @@
 .materiales-img-sec {
     width: 100%;
     max-width: 100%;
+}
+
+.materiales-desktop {
+    width: 100%;
+    max-width: 100%;
+
 }
 
 .mats-section {
@@ -271,6 +277,11 @@
     margin-top: 4rem;
     display: flex;
     justify-content: space-around;
+    background-image: url(images/mapa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .list-none {
@@ -365,15 +376,6 @@ footer {
     margin-top: 1rem;
 }
 
-#contacto{
-    background-image: url(images/mapa.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    
-    
-}
 
 
 form {
@@ -490,7 +492,7 @@ input {
     width: 50%;
 }
 
-.form-group>input{
+.form-group>input {
     width: 85%;
 }
 
@@ -586,7 +588,7 @@ input {
         width: 50%;
     }
 
-    
+
 
     .footer-logo {
         width: 70%;
@@ -649,6 +651,7 @@ input {
     .materiales-desktop {
         width: 100%;
         max-width: 100%;
+
     }
 
     .tarjeta-cajeta {
@@ -846,14 +849,14 @@ input {
 
     .titulo-convertidores-phone>img {
         width: 100%;
-       
+
     }
 
-    .materiales-desktop{
+    .materiales-desktop {
         display: none;
     }
 
-    .materiales-img-larga{
+    .materiales-img-larga {
         display: block;
     }
 
@@ -948,9 +951,10 @@ input {
         flex-direction: column;
         margin-top: -5rem;
         
+
     }
 
-    #contacto{
+    #contacto {
         margin-top: -4rem;
     }
 
